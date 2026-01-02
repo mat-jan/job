@@ -33,4 +33,5 @@ jobs:
           git config --global user.email "bot@github.com"
           git add oferty.json
           git commit -m "Aktualizacja ofert" || exit 0
+          git pull --rebase origin main  # <-- TA LINIA NAPRAWIA BŁĄD
           git push
