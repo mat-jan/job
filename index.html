@@ -3,91 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panel Rekrutacyjny 2025</title>
+    <title>Panel Ofert 2025</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
-        body { font-family: 'Plus Jakarta Sans', sans-serif; }
-        .login-gradient { background: radial-gradient(circle at top right, #1e293b, #0f172a); }
-        .job-card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background: #0F172A; }
     </style>
 </head>
-<body class="bg-[#F8FAFC]">
-
-    <div id="login-screen" class="fixed inset-0 z-50 flex items-center justify-center p-6 login-gradient">
-        <div class="max-w-md w-full bg-white/5 backdrop-blur-xl p-10 rounded-[40px] shadow-2xl border border-white/10 text-center">
-            <div class="w-20 h-20 bg-blue-600 rounded-3xl mx-auto mb-6 flex items-center justify-center shadow-lg shadow-blue-500/20">
-                <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
-            </div>
-            <h1 class="text-white text-3xl font-800 mb-2 tracking-tight">System Ofert</h1>
-            <p class="text-slate-400 text-sm mb-8 uppercase tracking-widest font-bold">Wybierz profil i podaj hasło</p>
-            
+<body>
+    <div id="login-screen" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-900 p-6 text-center">
+        <div class="max-w-md w-full bg-slate-800 p-10 rounded-[40px] border border-slate-700 shadow-2xl">
+            <h1 class="text-white text-3xl font-800 mb-8 italic uppercase tracking-tight text-blue-400">Panel Dostępu</h1>
             <div class="space-y-4">
-                <select id="user-select" class="w-full px-6 py-4 bg-slate-800 text-white rounded-2xl border border-slate-700 focus:ring-2 focus:ring-blue-500 font-bold outline-none">
+                <select id="user-select" class="w-full px-6 py-4 bg-slate-900 text-white rounded-2xl border-none font-bold uppercase tracking-wider outline-none">
                     <option value="Mateusz">👤 Mateusz</option>
                     <option value="Jolanta">👤 Jolanta</option>
                 </select>
-                
-                <input type="password" id="password-input" placeholder="Wpisz hasło..." 
-                       class="w-full px-6 py-4 bg-slate-800 text-white rounded-2xl border border-slate-700 focus:ring-2 focus:ring-blue-500 font-semibold outline-none shadow-inner">
-                
-                <button onclick="checkPassword()" class="w-full py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-2xl font-800 uppercase tracking-widest transition-all shadow-lg shadow-blue-600/30">
-                    Zaloguj się
-                </button>
-                <p id="error-msg" class="text-red-400 text-xs font-bold hidden italic">Błędne hasło! Spróbuj ponownie.</p>
+                <input type="password" id="password-input" placeholder="Wpisz hasło..." class="w-full px-6 py-4 bg-slate-900 text-white rounded-2xl border-none outline-none font-semibold">
+                <button onclick="checkPassword()" class="w-full py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-2xl font-800 uppercase tracking-widest transition-all">Zaloguj</button>
+                <p id="error-msg" class="text-red-400 text-xs font-bold hidden">❌ Błędne hasło!</p>
             </div>
         </div>
     </div>
 
-    <div id="main-panel" class="hidden min-h-screen">
+    <div id="main-panel" class="hidden min-h-screen bg-[#F8FAFC]">
         <div class="max-w-5xl mx-auto px-4 pt-10">
-            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-6">
+            <div class="flex justify-between items-end mb-10">
                 <div>
-                    <h1 id="welcome-text" class="text-4xl font-800 text-slate-900 tracking-tight mb-2 italic uppercase">🎯 Cześć!</h1>
-                    <p class="text-slate-500 text-lg">Twoja spersonalizowana lista ogłoszeń</p>
+                    <h1 id="welcome-text" class="text-4xl font-800 text-slate-900 tracking-tight mb-2 italic uppercase">Cześć!</h1>
+                    <p class="text-slate-500 font-medium">Aktualne oferty kadr i płac</p>
                 </div>
-                <div class="flex items-center gap-6">
-                    <button onclick="location.reload()" class="text-sm font-bold text-slate-400 hover:text-red-500 transition-colors uppercase tracking-widest">Wyloguj</button>
-                    <div class="bg-blue-600 text-white px-8 py-4 rounded-[24px] shadow-xl shadow-blue-200 flex items-center gap-4">
-                        <span id="job-count" class="text-3xl font-800 leading-none">0</span>
-                        <span class="text-[10px] font-bold uppercase tracking-wider opacity-80 leading-tight text-left">Dostępne<br>Oferty</span>
+                <div class="flex gap-4 items-center">
+                    <button onclick="location.reload()" class="text-xs font-bold text-slate-400 uppercase tracking-widest">Wyloguj</button>
+                    <div class="bg-blue-600 text-white px-8 py-4 rounded-3xl shadow-xl flex items-center gap-4">
+                        <span id="job-count" class="text-3xl font-800">0</span>
+                        <span class="text-[10px] font-bold uppercase tracking-wider opacity-80 leading-tight">Nowych<br>Ofert</span>
                     </div>
                 </div>
             </div>
-
-            <div class="bg-white p-3 rounded-[32px] border border-slate-100 shadow-sm mb-8 flex items-center">
-                <div class="pl-5 pr-3 text-slate-400">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                </div>
-                <input type="text" id="search-input" onkeyup="renderJobs()" placeholder="Szukaj po tytule stanowiska lub nazwie firmy..." 
-                       class="w-full py-4 bg-transparent border-none rounded-2xl text-slate-900 font-semibold focus:ring-0 outline-none text-lg">
+            <div class="bg-white p-4 rounded-[32px] border border-slate-100 shadow-sm mb-8">
+                <input type="text" id="search-input" onkeyup="renderJobs()" placeholder="Szukaj stanowiska..." class="w-full pl-6 py-4 bg-slate-50 border-none rounded-2xl font-semibold outline-none">
             </div>
-
             <div id="job-container" class="grid gap-5"></div>
         </div>
     </div>
 
     <script>
-        const PASSWORDS = {
-            "Mateusz": "Mateusz_2025@!#",
-            "Jolanta": "Jolanta_2025@!#"
-        };
-
-        let allJobs = [];
-        let currentUser = null;
-        let userBlacklist = [];
+        const PASSWORDS = { "Mateusz": "Mateusz_2025@!#", "Jolanta": "Jolanta_2025@!#" };
+        let allJobs = [], currentUser = null, userBlacklist = [];
 
         function checkPassword() {
             const user = document.getElementById('user-select').value;
             const pass = document.getElementById('password-input').value;
-            const error = document.getElementById('error-msg');
-
-            if (PASSWORDS[user] === pass) {
-                login(user);
-            } else {
-                error.classList.remove('hidden');
-                document.getElementById('password-input').value = '';
-            }
+            if (PASSWORDS[user] === pass) { login(user); } 
+            else { document.getElementById('error-msg').classList.remove('hidden'); }
         }
 
         function login(user) {
@@ -95,24 +64,14 @@
             document.getElementById('login-screen').classList.add('hidden');
             document.getElementById('main-panel').classList.remove('hidden');
             document.getElementById('welcome-text').innerText = `🎯 ${user}`;
-            
-            // Unikalna czarna lista dla każdego użytkownika
             userBlacklist = JSON.parse(localStorage.getItem(`rejected_${user}`) || '[]');
             fetchJobs();
         }
 
         async function fetchJobs() {
-            try {
-                const response = await fetch('oferty.json?t=' + Date.now());
-                allJobs = await response.json();
-                renderJobs();
-            } catch (e) {
-                document.getElementById('job-container').innerHTML = `
-                    <div class="bg-white p-12 rounded-[32px] text-center border-2 border-dashed border-slate-200">
-                        <p class="text-slate-400 font-bold uppercase tracking-widest text-sm">Brak danych</p>
-                        <p class="text-slate-600 mt-2">Uruchom scraper.py aby wygenerować oferty!</p>
-                    </div>`;
-            }
+            const response = await fetch('oferty.json?t=' + Date.now());
+            allJobs = await response.json();
+            renderJobs();
         }
 
         function rejectJob(url) {
@@ -123,44 +82,17 @@
 
         function renderJobs() {
             const query = document.getElementById('search-input').value.toLowerCase();
-            const container = document.getElementById('job-container');
-            
-            const visibleJobs = allJobs.filter(job => 
-                !userBlacklist.includes(job.url) && 
-                (job.title.toLowerCase().includes(query) || job.company.toLowerCase().includes(query))
-            );
-
-            document.getElementById('job-count').innerText = visibleJobs.length;
-
-            if (visibleJobs.length === 0) {
-                container.innerHTML = '<div class="py-20 text-center text-slate-400 font-bold uppercase italic tracking-widest">Wszystkie oferty sprawdzone!</div>';
-                return;
-            }
-
-            container.innerHTML = visibleJobs.map(job => `
-                <div class="job-card bg-white p-6 rounded-[32px] border border-slate-100 hover:border-blue-500 hover:shadow-2xl hover:shadow-blue-100/50 transition-all flex flex-col md:flex-row justify-between items-center gap-6 group">
-                    <div class="flex-1 w-full cursor-pointer" onclick="window.open('${job.url}', '_blank')">
-                        <div class="flex items-center gap-2 mb-3">
-                            <span class="bg-blue-50 text-blue-600 text-[10px] font-800 px-3 py-1 rounded-lg uppercase tracking-wider">${job.source}</span>
-                            ${job.part_time ? '<span class="bg-amber-50 text-amber-600 text-[10px] font-800 px-3 py-1 rounded-lg uppercase tracking-wider">Wymiar: 3/4 etatu</span>' : ''}
-                        </div>
-                        <h2 class="text-2xl font-800 text-slate-900 group-hover:text-blue-600 transition-colors mb-2 leading-tight">${job.title}</h2>
-                        <div class="flex gap-5 text-sm font-bold uppercase tracking-wide">
-                            <span class="text-slate-400 font-bold">${job.company}</span>
-                            <span class="text-blue-500">${job.location}</span>
-                        </div>
+            const visible = allJobs.filter(j => !userBlacklist.includes(j.url) && (j.title.toLowerCase().includes(query) || j.company.toLowerCase().includes(query)));
+            document.getElementById('job-count').innerText = visible.length;
+            document.getElementById('job-container').innerHTML = visible.map(j => `
+                <div class="bg-white p-6 rounded-[32px] border border-slate-100 shadow-sm flex flex-col md:flex-row justify-between items-center gap-6 group">
+                    <div class="flex-1 w-full cursor-pointer" onclick="window.open('${j.url}', '_blank')">
+                        <span class="text-[10px] font-800 uppercase text-slate-400">${j.source}</span>
+                        <h2 class="text-2xl font-800 text-slate-900 group-hover:text-blue-600 transition-colors mb-1">${j.title}</h2>
+                        <div class="text-blue-500 text-sm font-bold uppercase italic">${j.company} — ${j.location}</div>
                     </div>
-                    
-                    <div class="flex gap-3">
-                        <button onclick="rejectJob('${job.url}')" class="p-5 bg-slate-50 text-slate-300 hover:bg-red-50 hover:text-red-500 rounded-2xl transition-all shadow-sm group-hover:bg-slate-100" title="Odrzuć ofertę">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg>
-                        </button>
-                        <button onclick="window.open('${job.url}', '_blank')" class="p-5 bg-blue-600 text-white hover:bg-blue-700 rounded-2xl transition-all shadow-lg shadow-blue-200">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
-                        </button>
-                    </div>
-                </div>
-            `).join('');
+                    <button onclick="rejectJob('${j.url}')" class="p-5 bg-slate-50 text-slate-300 hover:text-red-500 rounded-2xl transition-all"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg></button>
+                </div>`).join('');
         }
     </script>
 </body>
