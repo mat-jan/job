@@ -1,49 +1,17 @@
 [
     {
-        "title": "Specjalista / specjalistka ds. kadr i płac",
-        "company": "Specjalista / Specjalistka ds. kadr i płac",
-        "location": "Warszawa, Mokotów",
-        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-i-plac-warszawa-aleja-lotnikow-32-46,oferta,1004780371?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
-        "source": "Pracuj.pl",
-        "part_time": true
-    },
-    {
-        "title": "Młodszy/a specjalista/ka ds. kadr i płac",
-        "company": "5 500–6 000 zł brutto / mies.",
-        "location": "Warszawa, Praga-Południe",
-        "url": "https://www.pracuj.pl/praca/mlodszy-a-specjalista-ka-ds-kadr-i-plac-warszawa-arabska-9,oferta,1004792351?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
-        "source": "Pracuj.pl",
-        "part_time": false
-    },
-    {
-        "title": "Starszy specjalista ds. kadrowych (k/m) (kontroling personalny)",
-        "company": "PIT-RADWAR S.A.",
-        "location": "Warszawa, Praga-Południe",
-        "url": "https://www.pracuj.pl/praca/starszy-specjalista-ds-kadrowych-k-m-kontroling-personalny-warszawa-poligonowa-30,oferta,1004792086?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
-        "source": "Pracuj.pl",
-        "part_time": false
-    },
-    {
-        "title": "Specjalista/specjalistka ds. kadr",
-        "company": "LUX MED Sp. z o.o.",
-        "location": "Warszawa, Mokotów",
-        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-warszawa-szturmowa-2,oferta,1004801035?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
-        "source": "Pracuj.pl",
-        "part_time": false
-    },
-    {
-        "title": "Specjalista / specjalistka ds. kadr i płac (ze znajomością księgowości)",
-        "company": "Specjalista / Specjalistka ds. kadr i płac (ze znajomością księgowości)",
+        "title": "Młodszy specjalista / młodsza specjalistka ds. kadr i płac",
+        "company": "CREOTECH INSTRUMENTS S.A.",
         "location": "Warszawa, Ursynów",
-        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-i-plac-ze-znajomoscia-ksiegowosci-warszawa-migdalowa-4d,oferta,1004779084?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-kadr-i-plac-warszawa-osmanska-14,oferta,1004805625?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
-        "part_time": true
+        "part_time": false
     },
     {
-        "title": "Specjalista / specjalistka ds. kadr i płac",
-        "company": "SEEN Technologie Sp. z o.o.",
-        "location": "Warszawa, Mokotów",
-        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-i-plac-warszawa-jozefa-piusa-dziekonskiego-3,oferta,1004769612?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "title": "Specjalista ds. kadr i płac",
+        "company": "OMD",
+        "location": "Warszawa, Ursynów",
+        "url": "https://www.pracuj.pl/praca/specjalista-ds-kadr-i-plac-warszawa-ibisa-14,oferta,1004762498?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -51,7 +19,55 @@
         "title": "Specjalista ds. kadr, płac i raportowania hr (k/m)",
         "company": "Aldesa Polska Services Sp. z o.o.",
         "location": "Warszawa, Mokotów",
-        "url": "https://www.pracuj.pl/praca/specjalista-ds-kadr-plac-i-raportowania-hr-k-m-warszawa-janusza-kurtyki-4,oferta,1004790368?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/specjalista-ds-kadr-plac-i-raportowania-hr-k-m-warszawa-janusza-kurtyki-4,oferta,1004790368?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
+        "source": "Pracuj.pl",
+        "part_time": false
+    },
+    {
+        "title": "Specjalista / specjalistka ds. kadr i płac",
+        "company": "Specjalista / Specjalistka ds. kadr i płac",
+        "location": "Warszawa, Mokotów",
+        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-i-plac-warszawa-aleja-lotnikow-32-46,oferta,1004780371?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
+        "source": "Pracuj.pl",
+        "part_time": true
+    },
+    {
+        "title": "Młodszy/a specjalista/ka ds. kadr i płac",
+        "company": "5 500–6 000 zł brutto / mies.",
+        "location": "Warszawa, Praga-Południe",
+        "url": "https://www.pracuj.pl/praca/mlodszy-a-specjalista-ka-ds-kadr-i-plac-warszawa-arabska-9,oferta,1004792351?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
+        "source": "Pracuj.pl",
+        "part_time": false
+    },
+    {
+        "title": "Starszy specjalista ds. kadrowych (k/m) (kontroling personalny)",
+        "company": "PIT-RADWAR S.A.",
+        "location": "Warszawa, Praga-Południe",
+        "url": "https://www.pracuj.pl/praca/starszy-specjalista-ds-kadrowych-k-m-kontroling-personalny-warszawa-poligonowa-30,oferta,1004792086?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
+        "source": "Pracuj.pl",
+        "part_time": false
+    },
+    {
+        "title": "Specjalista/specjalistka ds. kadr",
+        "company": "LUX MED Sp. z o.o.",
+        "location": "Warszawa, Mokotów",
+        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-warszawa-szturmowa-2,oferta,1004801035?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
+        "source": "Pracuj.pl",
+        "part_time": false
+    },
+    {
+        "title": "Specjalista / specjalistka ds. kadr i płac (ze znajomością księgowości)",
+        "company": "Specjalista / Specjalistka ds. kadr i płac (ze znajomością księgowości)",
+        "location": "Warszawa, Ursynów",
+        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-i-plac-ze-znajomoscia-ksiegowosci-warszawa-migdalowa-4d,oferta,1004779084?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
+        "source": "Pracuj.pl",
+        "part_time": true
+    },
+    {
+        "title": "Specjalista / specjalistka ds. kadr i płac",
+        "company": "SEEN Technologie Sp. z o.o.",
+        "location": "Warszawa, Mokotów",
+        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-i-plac-warszawa-jozefa-piusa-dziekonskiego-3,oferta,1004769612?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -59,7 +75,7 @@
         "title": "Specjalista / specjalistka ds. kadr i płac oraz księgowości",
         "company": "5 000–5 500 zł brutto / mies.",
         "location": "Warszawa, Mokotów",
-        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-i-plac-oraz-ksiegowosci-warszawa-czerniakowska-71,oferta,1004765046?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-i-plac-oraz-ksiegowosci-warszawa-czerniakowska-71,oferta,1004765046?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -67,7 +83,7 @@
         "title": "Specjalista / specjalistka ds. płac z językiem angielskim",
         "company": "Huawei Polska Sp. z o.o.",
         "location": "Warszawa, Mokotów",
-        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-plac-z-jezykiem-angielskim-warszawa-domaniewska-39a,oferta,1004797880?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-plac-z-jezykiem-angielskim-warszawa-domaniewska-39a,oferta,1004797880?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -75,23 +91,15 @@
         "title": "Asystent / asystentka ds. finansów i kadr",
         "company": "7 000–8 500 zł brutto / mies.",
         "location": "Warszawa, Mokotów",
-        "url": "https://www.pracuj.pl/praca/asystent-asystentka-ds-finansow-i-kadr-warszawa-studencka-55,oferta,1004800668?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/asystent-asystentka-ds-finansow-i-kadr-warszawa-studencka-55,oferta,1004800668?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": true
-    },
-    {
-        "title": "Specjalista ds. kadr i płac",
-        "company": "OMD",
-        "location": "Warszawa, Ursynów",
-        "url": "https://www.pracuj.pl/praca/specjalista-ds-kadr-i-plac-warszawa-ibisa-14,oferta,1004762498?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
-        "source": "Pracuj.pl",
-        "part_time": false
     },
     {
         "title": "Samodzielna/y księgowa/y ze znajomością kadr i płac",
         "company": "8 000–9 500 zł / mies. (zal. od umowy)",
         "location": "Warszawa, Wawer",
-        "url": "https://www.pracuj.pl/praca/samodzielna-y-ksiegowa-y-ze-znajomoscia-kadr-i-plac-warszawa-trakt-lubelski-393a,oferta,1004798306?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/samodzielna-y-ksiegowa-y-ze-znajomoscia-kadr-i-plac-warszawa-trakt-lubelski-393a,oferta,1004798306?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -99,7 +107,7 @@
         "title": "Specjalista / specjalistka ds. kadr i płac",
         "company": "DRIVIA CENTRUM OBSŁUGI TRANSPORTU sp. z o.o.",
         "location": "Warszawa, Mokotów",
-        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-i-plac-warszawa-smyczkowa-17,oferta,1004760941?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-i-plac-warszawa-smyczkowa-17,oferta,1004760941?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -107,7 +115,7 @@
         "title": "Samodzielny referent/młodszy specjalista w zespole rekrutacji i rozwoju kadry (k/m)",
         "company": "Szkoła Główna Gospodarstwa Wiejskiego w Warszawie",
         "location": "Warszawa, Ursynów",
-        "url": "https://www.pracuj.pl/praca/samodzielny-referent-mlodszy-specjalista-w-zespole-rekrutacji-i-rozwoju-kadry-k-warszawa-nowoursynowska-166,oferta,1004793734?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/samodzielny-referent-mlodszy-specjalista-w-zespole-rekrutacji-i-rozwoju-kadry-k-warszawa-nowoursynowska-166,oferta,1004793734?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -115,7 +123,7 @@
         "title": "Specjalista / specjalistka ds. personalno-kadrowych",
         "company": "APPORT Logistyka Sp. z o.o.",
         "location": "Otwock / Warszawa",
-        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-personalno-kadrowych-debe-wielkie-pow-minski,oferta,1004748368?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-personalno-kadrowych-debe-wielkie-pow-minski,oferta,1004748368?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -123,7 +131,7 @@
         "title": "Specjalista ds. kadr i płac (k/m)",
         "company": "KGL S.A.",
         "location": "Otwock / Warszawa",
-        "url": "https://www.pracuj.pl/praca/specjalista-ds-kadr-i-plac-k-m-rzakta-pow-otwocki,oferta,1004752794?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/specjalista-ds-kadr-i-plac-k-m-rzakta-pow-otwocki,oferta,1004752794?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -131,7 +139,7 @@
         "title": "Pracownik / pracowniczka ds. kadr i płac",
         "company": "7 500–15 000 zł brutto / mies.",
         "location": "Warszawa, Mokotów",
-        "url": "https://www.pracuj.pl/praca/pracownik-pracowniczka-ds-kadr-i-plac-warszawa-belwederska-6a,oferta,1004758877?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/pracownik-pracowniczka-ds-kadr-i-plac-warszawa-belwederska-6a,oferta,1004758877?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -139,7 +147,7 @@
         "title": "Samodzielna księgowa / samodzielny księgowy - obsługa kadrowo-płacowa",
         "company": "9 500–11 000 zł brutto / mies.",
         "location": "Warszawa, Wilanów",
-        "url": "https://www.pracuj.pl/praca/samodzielna-ksiegowa-samodzielny-ksiegowy-obsluga-kadrowo-placowa-warszawa-aleksandra-gieysztora-4,oferta,1004748861?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/samodzielna-ksiegowa-samodzielny-ksiegowy-obsluga-kadrowo-placowa-warszawa-aleksandra-gieysztora-4,oferta,1004748861?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": true
     },
@@ -147,7 +155,7 @@
         "title": "Specjalista / specjalistka ds. kadr i płac",
         "company": "6 000–7 000 zł brutto / mies.",
         "location": "Otwock / Warszawa",
-        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-i-plac-piaseczno-pulawska-45b,oferta,1004783423?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-i-plac-piaseczno-pulawska-45b,oferta,1004783423?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -155,7 +163,7 @@
         "title": "Specjalista / specjalistka ds. kadrowo-płacowych",
         "company": "7 000–9 500 zł / mies. (zal. od umowy)",
         "location": "Warszawa, Ursynów",
-        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadrowo-placowych-warszawa-tadeusza-makowskiego-2,oferta,1004764263?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadrowo-placowych-warszawa-tadeusza-makowskiego-2,oferta,1004764263?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": true
     },
@@ -163,7 +171,7 @@
         "title": "Specjalista / specjalistka ds. kadr i płac (k/m)",
         "company": "Klaromed Sp. z o.o.",
         "location": "Otwock / Warszawa",
-        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-i-plac-k-m-sulejowek-jana-iii-sobieskiego-123,oferta,1004750682?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-kadr-i-plac-k-m-sulejowek-jana-iii-sobieskiego-123,oferta,1004750682?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -171,7 +179,7 @@
         "title": "Specjalista ds. administracyjno-kadrowych",
         "company": "4Effect Consulting",
         "location": "Otwock / Warszawa",
-        "url": "https://www.pracuj.pl/praca/specjalista-ds-administracyjno-kadrowych-piaseczno,oferta,1004758484?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/specjalista-ds-administracyjno-kadrowych-piaseczno,oferta,1004758484?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -179,7 +187,7 @@
         "title": "Specjalista / specjalistka ds. płac",
         "company": "Polskie Centrum Badań i Certyfikacji S.A.",
         "location": "Warszawa, Ursynów",
-        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-plac-warszawa-pulawska-469,oferta,1004771153?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/specjalista-specjalistka-ds-plac-warszawa-pulawska-469,oferta,1004771153?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -187,7 +195,7 @@
         "title": "Asystent / asystentka ds. kadr i płac",
         "company": "5 500–6 000 zł / mies. (zal. od umowy)",
         "location": "Warszawa, Mokotów",
-        "url": "https://www.pracuj.pl/praca/asystent-asystentka-ds-kadr-i-plac-warszawa-czerska-8-10,oferta,1004759316?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/asystent-asystentka-ds-kadr-i-plac-warszawa-czerska-8-10,oferta,1004759316?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -195,7 +203,7 @@
         "title": "Kadrowy / kadrowa",
         "company": "9 000–10 500 zł / mies. (zal. od umowy)",
         "location": "Warszawa, Wilanów",
-        "url": "https://www.pracuj.pl/praca/kadrowy-kadrowa-warszawa-franciszka-klimczaka-1,oferta,1004753844?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/kadrowy-kadrowa-warszawa-franciszka-klimczaka-1,oferta,1004753844?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": true
     },
@@ -203,7 +211,7 @@
         "title": "Payroll specialist",
         "company": "CBRE Business Services Organisation Sp. z o.o.",
         "location": "Warszawa, Mokotów",
-        "url": "https://www.pracuj.pl/praca/payroll-specialist-warszawa-domaniewska-30,oferta,1004746951?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/payroll-specialist-warszawa-domaniewska-30,oferta,1004746951?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -211,7 +219,7 @@
         "title": "Samodzielny księgowy / samodzielna księgowa",
         "company": "Samodzielny Księgowy / Samodzielna Księgowa",
         "location": "Otwock / Warszawa",
-        "url": "https://www.pracuj.pl/praca/samodzielny-ksiegowy-samodzielna-ksiegowa-loziska-pow-piaseczynski-fabryczna-3,oferta,1004751753?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/samodzielny-ksiegowy-samodzielna-ksiegowa-loziska-pow-piaseczynski-fabryczna-3,oferta,1004751753?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -219,7 +227,7 @@
         "title": "Samodzielny księgowy / samodzielna księgowa",
         "company": "9 000–11 000 zł brutto / mies.",
         "location": "Warszawa, Mokotów",
-        "url": "https://www.pracuj.pl/praca/samodzielny-ksiegowy-samodzielna-ksiegowa-warszawa-boleslawa-limanowskiego-11s,oferta,1004773585?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/samodzielny-ksiegowy-samodzielna-ksiegowa-warszawa-boleslawa-limanowskiego-11s,oferta,1004773585?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -227,7 +235,7 @@
         "title": "Księgowy / księgowa",
         "company": "7 000 zł brutto / mies.",
         "location": "Warszawa, Mokotów",
-        "url": "https://www.pracuj.pl/praca/ksiegowy-ksiegowa-warszawa-bartycka-18a,oferta,1004764165?s=83230a17&searchId=MTc3NzUzNjc1Mjc3My42MzYy",
+        "url": "https://www.pracuj.pl/praca/ksiegowy-ksiegowa-warszawa-bartycka-18a,oferta,1004764165?s=83230a17&searchId=MTc3NzU0NjI3MjI4MC4wOTc3",
         "source": "Pracuj.pl",
         "part_time": false
     },
@@ -280,14 +288,6 @@
         "part_time": false
     },
     {
-        "title": "Specjalista ds. kadr i płac (k/m)",
-        "company": "KGL S.A.   Rzakta    praca stacjonarna   dziś wygasa",
-        "location": "Otwock / Warszawa",
-        "url": "https://www.praca.pl/specjalista-ds-kadr-i-plac-k-m_10854112.html",
-        "source": "Praca.pl",
-        "part_time": false
-    },
-    {
         "title": "Specjalista / specjalistka ds. kadr i płac",
         "company": "Pomysłowi Księgowi   Warszawa, Śródmieście    praca stacjonarna",
         "location": "Otwock / Warszawa",
@@ -320,10 +320,10 @@
         "part_time": true
     },
     {
-        "title": "Specjalista / specjalistka ds. kadr i płac",
-        "company": "KGL S.A.   Rzakta    praca stacjonarna   dziś wygasa",
+        "title": "Specjalista ds. kadr i płac / specjalistka ds. kadr i płac",
+        "company": "Katcon Polska Sp. z o.o.   Błonie    praca stacjonarna",
         "location": "Otwock / Warszawa",
-        "url": "https://www.praca.pl/specjalista-specjalistka-ds-kadr-i-plac_10854718.html",
+        "url": "https://www.praca.pl/specjalista-ds-kadr-i-plac-specjalistka-ds-kadr-i-plac_10880929.html",
         "source": "Praca.pl",
         "part_time": false
     },
@@ -332,14 +332,6 @@
         "company": "TT-THERMO KING Sp. z o.o.   Grzędy (pow. piaseczyński, gm. Tarczyn), al. Krakowska 36    praca stacjonarna   za 3 dni wygasa",
         "location": "Otwock / Warszawa",
         "url": "https://www.praca.pl/specjalista-specjalistka-ds-kadr-i-plac_10864849.html",
-        "source": "Praca.pl",
-        "part_time": false
-    },
-    {
-        "title": "Specjalista ds. kadr i płac / specjalistka ds. kadr i płac",
-        "company": "Katcon Polska Sp. z o.o.   Błonie    praca stacjonarna",
-        "location": "Otwock / Warszawa",
-        "url": "https://www.praca.pl/specjalista-ds-kadr-i-plac-specjalistka-ds-kadr-i-plac_10880929.html",
         "source": "Praca.pl",
         "part_time": false
     },
